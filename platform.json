@@ -1,0 +1,39 @@
+{
+  "name": "padauk",
+  "title": "PADAUK PDK13 PDK14 PDK15 Microcontrollers",
+  "description": "Padauk 8-Bit Microcontrollers",
+  "homepage": "http://www.padauk.com.tw/en/product/index.aspx",
+  "license": "Apache-2.0",
+  "keywords": [
+      "dev-platform",
+      "8-bit"
+  ],
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "version": "0.0.1",
+  "frameworks": {
+    "easypdk": {
+      "package": "framework-easypdk",
+      "script": "builder/frameworks/easypdk.py"
+    }
+  },
+  "packages": {
+    "framework-easypdk": {
+      "type": "framework",
+      "version": "https://github.com/1500WK1500/framework-easypdk.git"
+    },
+    "toolchain-sdcc": {
+      "type": "toolchain",
+      "version": "https://github.com/1500WK1500/toolchain-sdcc-4.0.0-linux_x86_64.git"
+    },
+    "tool-easypdkprog": {
+      "type": "uploader",
+      "version": "https://github.com/1500WK1500/tool-easypdkprog-linux_x86_64.git"
+    }
+  }
+}

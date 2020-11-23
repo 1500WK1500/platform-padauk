@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": 1000000,
+    "size_ram": 256,
+    "size_code": 3072,
+    "mcu": "PFS173",
+    "cpu": "pdk15",
+    "calibration_voltage": 4.0
+  },
+  "frameworks": ["easypdk"],
+  "upload": {
+    "maximum_ram_size": 256,
+    "maximum_size": 3072,
+    "protocol": "easy-pdk-programmer",
+    "protocols": [
+      "easy-pdk-programmer"
+    ]
+  },
+  "name": "Generic PFS173",
+  "url": "http://www.padauk.com.tw/en/product/show.aspx?num=90&kind=42",
+  "vendor": "Padauk Technology"
+}

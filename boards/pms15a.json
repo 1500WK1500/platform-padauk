@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": 1000000,
+    "size_ram": 64,
+    "size_code": 512,
+    "mcu": "PMS15A",
+    "cpu": "pdk13",
+    "calibration_voltage": 4.0
+  },
+  "frameworks": ["easypdk"],
+  "upload": {
+    "maximum_ram_size": 64,
+    "maximum_size": 512,
+    "protocol": "easy-pdk-programmer",
+    "protocols": [
+      "easy-pdk-programmer"
+    ]
+  },
+  "name": "Generic PMS15A",
+  "url": "http://www.padauk.com.tw/en/product/show.aspx?num=105&kind=41",
+  "vendor": "Padauk Technology"
+}

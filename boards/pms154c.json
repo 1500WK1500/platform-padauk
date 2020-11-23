@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": 1000000,
+    "size_ram": 128,
+    "size_code": 2048,
+    "mcu": "PMS154C",
+    "cpu": "pdk14",
+    "calibration_voltage": 4.0
+  },
+  "frameworks": ["easypdk"],
+  "upload": {
+    "maximum_ram_size": 128,
+    "maximum_size": 2048,
+    "protocol": "easy-pdk-programmer",
+    "protocols": [
+      "easy-pdk-programmer"
+    ]
+  },
+  "name": "Generic PMS154C",
+  "url": "http://www.padauk.com.tw/en/product/show.aspx?num=14&kind=41",
+  "vendor": "Padauk Technology"
+}

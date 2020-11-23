@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": 1000000,
+    "size_ram": 96,
+    "size_code": 1536,
+    "mcu": "PMS171B",
+    "cpu": "pdk14",
+    "calibration_voltage": 4.0
+  },
+  "frameworks": ["easypdk"],
+  "upload": {
+    "maximum_ram_size": 96,
+    "maximum_size": 1536,
+    "protocol": "easy-pdk-programmer",
+    "protocols": [
+      "easy-pdk-programmer"
+    ]
+  },
+  "name": "Generic PMS171B",
+  "url": "http://www.padauk.com.tw/en/product/show.aspx?num=96&kind=41",
+  "vendor": "Padauk Technology"
+}

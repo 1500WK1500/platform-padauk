@@ -1,0 +1,22 @@
+{
+  "build": {
+    "f_cpu": 1000000,
+    "size_ram": 64,
+    "size_code": 1024,
+    "mcu": "PMS150C",
+    "cpu": "pdk13",
+    "calibration_voltage": 4.0
+  },
+  "frameworks": ["easypdk"],
+  "upload": {
+    "maximum_ram_size": 64,
+    "maximum_size": 1024,
+    "protocol": "easy-pdk-programmer",
+    "protocols": [
+      "easy-pdk-programmer"
+    ]
+  },
+  "name": "Generic PMS150C",
+  "url": "http://www.padauk.com.tw/en/product/show.aspx?num=4&kind=41",
+  "vendor": "Padauk Technology"
+}
