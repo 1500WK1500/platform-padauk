@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/1500WK1500/platform-padauk.git"
   },
   "version": "0.0.1",
   "frameworks": {
@@ -29,7 +29,8 @@
     },
     "toolchain-sdcc": {
       "type": "toolchain",
-      "version": "https://github.com/1500WK1500/toolchain-sdcc-4.0.0-linux_x86_64.git"
+      "owner": "platformio",
+      "version": "^1.40100.0"
     },
     "tool-easypdkprog": {
       "type": "uploader",
